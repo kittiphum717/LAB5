@@ -2,21 +2,21 @@
 using namespace std;
 
 int main(){
-    int N;
+    int Number;
     int Even = 0;
     int Odd = 0;
     cout << "Enter an integer: ";
-    cin >> N;
-    while (N != 0)
+    cin >> Number;
+    while (Number != 0)
     {
-        if(N % 2 == 0){
+        if(Number % 2 == 0){
             Even += 1;
         }
         else{
             Odd += 1;
         }
         cout << "Enter an integer: ";
-        cin >> N;
+        cin >> Number;
     }
     cout << "#Even numbers = " <<  Even << endl;
     cout << "#Odd numbers = " << Odd << endl;
